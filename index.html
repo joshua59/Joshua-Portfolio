@@ -692,7 +692,15 @@
 <script src="js/jquery.preloadinator.min.js"></script>
 <script src="js/vanilla-tilt.min.js"></script>
 <script src="js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@vercel/analytics@1.2.2/dist/index.min.js"></script>
+<script async src="https://analytics.vercel.com/js/script.js"></script>
+
+<script>
+	window.vercelAnalytics = window.vercelAnalytics || [];
+	window.vercelAnalytics.push({
+		event: "pageview",
+		url: "https://joshua-silitonga.vercel.app/",
+	});
+</script>
 </body>
 
 <!-- Mirrored from ethemestudio.com/demo/fungi/1_main/index_dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Feb 2023 03:11:25 GMT -->
